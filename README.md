@@ -7,10 +7,10 @@
 
 This project focuses on detecting various types of vehicle damage using **YOLOv-series object detection models**. The system is designed to automatically identify and classify damage on cars such as:
 
-- 🔹 **Glass Shatter**
-- 🔹 **Broken Light**
-- 🔹 **Bumper Damage**
-- 🔹 **Dent**
+- **Glass Shatter**
+- **Broken Light**
+- **Bumper Damage**
+- **Dent**
 
 This automation can assist **insurance agencies, repair centers, police departments, and smart transport systems** by reducing manual inspection time and providing fast and accurate results.
 
@@ -47,21 +47,3 @@ The dataset consists of images of damaged vehicles manually annotated using **Ro
 | Programming Language | Python |
 | Frameworks | OpenCV, NumPy, Torch |
 | Deployment Format | Notebook (.ipynb) / Exported Model |
-
----
-
-## How to Run
-
-1. Clone the repository:
-
-git clone https://github.com/<your-username>/<repo-name>.git
-
-2. Install dependencies:
-
-pip install -r requirements.txt
-
-3. Run the notebook or inference script:
-
-python detect.py --weights best.pt --source test_images/
-```sh
-git clone https://github.com/<your-username>/<repo-name>.git
